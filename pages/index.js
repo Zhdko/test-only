@@ -1,5 +1,5 @@
-import { IMG_INFO } from './constants/constants.js';
-import TagInfo from './components/TagInfo.js';
+import { IMG_INFO } from '../constants/constants.js';
+import TagInfo from '../components/TagInfo.js';
 
 const tagsList = document.querySelector('.container');
 let currentTag = null;
