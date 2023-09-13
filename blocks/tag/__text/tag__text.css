@@ -1,0 +1,20 @@
+.tag__text {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  max-width: 0;
+  visibility: hidden;
+  transition: 0.8s;
+  white-space: nowrap;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, visibility 0s 0.3s, max-width 0.5s, margin-left 0.7s;
+}
+
+.tag_opened > .tag__text {
+  max-width: 200px;
+  margin-left: 15px;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out, visibility 0s, max-width 0.5s, margin-left 0.7s;
+  visibility: visible;
+}

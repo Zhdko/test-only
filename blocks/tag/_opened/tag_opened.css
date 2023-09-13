@@ -1,0 +1,5 @@
+.tag_opened {
+  transition: 0.3s;
+  z-index: 1;
+  opacity: 1;
+}
